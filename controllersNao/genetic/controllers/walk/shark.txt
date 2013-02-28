@@ -1,0 +1,5 @@
+            param[j].Aap = 0.0914154;
+            param[j].Aar = 0.204361;
+            param[j].Ahr = 0.175637;
+            param[j].k = 1.20868;
+            param[j].T = 1.93582;
