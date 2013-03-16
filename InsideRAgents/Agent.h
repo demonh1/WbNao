@@ -15,10 +15,10 @@ Agent(std::string s, unsigned id);
  virtual ~Agent() { };
 
 void setName(std::string _name); 
-std::string getName();
+std::string getName() const;
 
 void setAgentId(unsigned id);
-unsigned getAgentId();
+unsigned getAgentId() const;
 
 void createAgentAction();
 void killAgentAction();

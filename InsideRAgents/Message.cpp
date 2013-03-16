@@ -13,5 +13,5 @@ return (type == 1) ? INFORM :  QUERY;
 
 void Message::setMessage (char* _msg) { _msg = msg; }
 
-char* Message::getMessage() { return msg; }
+char* Message::getMessage() const { return msg; }
 

@@ -15,7 +15,7 @@ virtual ~ Message ();
 // methods
 int getTypeMessage (int type);
 void setMessage (char* _msg);
-char* getMessage();
+char* getMessage() const;
 
 };
 #endif
