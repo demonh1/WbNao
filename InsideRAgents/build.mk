@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -pthread -ansi -Wall -pipe
+CXXFLAGS = -std=c++0x -pthread -Wall -pipe
 LD = $(CXX)
 LDFLAGS = $(CXXFLAGS) -Wl,-O1
 STRIP = strip

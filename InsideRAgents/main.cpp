@@ -2,6 +2,7 @@
 #include "MotionAgent.h"
 #include "ManagerAgent.h"
 #include <iostream>
+#include <memory>
 #include <cstring>
 #include "MyThread.h"
 
@@ -11,7 +12,8 @@ int main() {
 	Message m = Message("hi",1);
 	Message m0 =  Message("inform message",2);
         Message ms =  Message("wt",2);
-	MessageEvent* m1 = new MessageEvent(); 
+
+	std::shared_ptr<MessageEvent>m1(new MessageEvent()); 
         MessageEvent m12 =  MessageEvent(); 
 	//QueueMessage aa =  QueueMessage(0);
 
@@ -48,14 +50,14 @@ std:: cout  << "size:";
 
 
 MyThread thread; 
-  std::cout << "Thread: " << thread.sendMessageSender(m,m12,motion,motion1) << std::endl;
+  //std::cout << "Thread: " << thread.sendMessageSender(m,m12,motion,motion1) << std::endl;
   thread.start();
 
 ////
 	MotionAgent motion2 = MotionAgent("motion2");
 	MotionAgent motion3 = MotionAgent("motion3");
 	MyThread thread1; 
-	std::cout << "Thread: " << thread1.sendMessageSender(m0,m12,motion2,motion3) << std::endl;
+	//std::cout << "Thread: " << thread1.sendMessageSender(m0,m12,motion2,motion3) << std::endl;
 	thread.start();
 	thread.join();
 //	std::cout << "Thread end: " << thread.sendMessageSender(m0,m12,motion2,motion3) << std::endl;
@@ -63,10 +65,9 @@ MyThread thread;
 	ManagerAgent manager = ManagerAgent("manager");
 	manager.setUidAgents(motion.getAgentId());
         manager.setUidAgents(motion2.getAgentId());
+        manager.setUidAgents(motion3.getAgentId());
         manager.printIdAgentSenders( );
 
-
-delete m1;
 
 return 0;
 }

@@ -22,23 +22,30 @@ obj/main.o: main.cpp MessageEvent.h /usr/include/c++/4.6/cstdio \
  /usr/include/c++/4.6/ext/numeric_traits.h \
  /usr/include/c++/4.6/bits/stl_pair.h /usr/include/c++/4.6/bits/move.h \
  /usr/include/c++/4.6/bits/concept_check.h \
+ /usr/include/c++/4.6/type_traits \
  /usr/include/c++/4.6/bits/stl_iterator_base_types.h \
  /usr/include/c++/4.6/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/4.6/bits/stl_iterator.h \
  /usr/include/c++/4.6/debug/debug.h /usr/include/c++/4.6/bits/allocator.h \
  /usr/include/c++/4.6/x86_64-linux-gnu/./bits/c++allocator.h \
  /usr/include/c++/4.6/ext/new_allocator.h /usr/include/c++/4.6/new \
- /usr/include/c++/4.6/exception /usr/include/c++/4.6/bits/stl_construct.h \
+ /usr/include/c++/4.6/exception /usr/include/c++/4.6/bits/exception_ptr.h \
+ /usr/include/c++/4.6/bits/nested_exception.h \
+ /usr/include/c++/4.6/bits/stl_construct.h \
  /usr/include/c++/4.6/bits/stl_uninitialized.h \
  /usr/include/c++/4.6/bits/stl_vector.h \
  /usr/include/c++/4.6/initializer_list \
  /usr/include/c++/4.6/bits/stl_bvector.h \
+ /usr/include/c++/4.6/bits/functional_hash.h \
+ /usr/include/c++/4.6/bits/hash_bytes.h \
  /usr/include/c++/4.6/bits/range_access.h \
  /usr/include/c++/4.6/bits/vector.tcc /usr/include/c++/4.6/string \
  /usr/include/c++/4.6/bits/stringfwd.h \
  /usr/include/c++/4.6/bits/char_traits.h \
  /usr/include/c++/4.6/bits/postypes.h /usr/include/c++/4.6/cwchar \
  /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/xlocale.h \
+ /usr/include/c++/4.6/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdint.h /usr/include/stdint.h \
  /usr/include/c++/4.6/bits/localefwd.h \
  /usr/include/c++/4.6/x86_64-linux-gnu/./bits/c++locale.h \
  /usr/include/c++/4.6/clocale /usr/include/locale.h \
@@ -64,6 +71,19 @@ obj/main.o: main.cpp MessageEvent.h /usr/include/c++/4.6/cstdio \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
  /usr/include/c++/4.6/x86_64-linux-gnu/./bits/atomic_word.h \
+ /usr/include/c++/4.6/ext/string_conversions.h \
+ /usr/include/c++/4.6/cstdlib /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h \
+ /usr/include/c++/4.6/cerrno /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/c++/4.6/bits/basic_string.tcc /usr/include/c++/4.6/sstream \
  /usr/include/c++/4.6/istream /usr/include/c++/4.6/ios \
  /usr/include/c++/4.6/bits/ios_base.h \
@@ -82,9 +102,17 @@ obj/main.o: main.cpp MessageEvent.h /usr/include/c++/4.6/cstdio \
  /usr/include/c++/4.6/bits/istream.tcc \
  /usr/include/c++/4.6/bits/sstream.tcc Message.h MotionAgent.h Agent.h \
  /usr/include/c++/4.6/cstring /usr/include/string.h ManagerAgent.h \
- /usr/include/c++/4.6/iostream MyThread.h thread.h /usr/include/signal.h \
- /usr/include/x86_64-linux-gnu/bits/sigset.h \
- /usr/include/x86_64-linux-gnu/bits/signum.h \
+ /usr/include/c++/4.6/iostream /usr/include/c++/4.6/memory \
+ /usr/include/c++/4.6/bits/stl_tempbuf.h \
+ /usr/include/c++/4.6/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/4.6/typeinfo /usr/include/c++/4.6/ext/concurrence.h \
+ /usr/include/c++/4.6/functional /usr/include/c++/4.6/tuple \
+ /usr/include/c++/4.6/utility /usr/include/c++/4.6/bits/stl_relops.h \
+ /usr/include/c++/4.6/backward/auto_ptr.h \
+ /usr/include/c++/4.6/bits/unique_ptr.h \
+ /usr/include/c++/4.6/bits/shared_ptr.h \
+ /usr/include/c++/4.6/bits/shared_ptr_base.h MyThread.h thread.h \
+ /usr/include/signal.h /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/siginfo.h \
  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
