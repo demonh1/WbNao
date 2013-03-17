@@ -1,5 +1,5 @@
 #include "MotionAgent.h"
 
-MotionAgent::MotionAgent(string name): sId(name) {  }
+MotionAgent::MotionAgent(std::string name): sId(name) {  }
 
 
