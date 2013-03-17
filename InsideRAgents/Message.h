@@ -17,5 +17,10 @@ int getTypeMessage (int type);
 void setMessage (char* _msg);
 char* getMessage() const;
 
+protected:
+// time-stamp
+long timeStamp;
+char* msg;
+
 };
 #endif
