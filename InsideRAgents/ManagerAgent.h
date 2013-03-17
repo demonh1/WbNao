@@ -13,9 +13,9 @@ std::string name;
 void setUidAgents(unsigned ida);
 void printIdAgentSenders( );
  
-// массив где хранится список id agents
-//int idAgents[10];
+
 protected:
+// массив где хранится список id agents
 std::vector <unsigned> agentsId;
 
 };
