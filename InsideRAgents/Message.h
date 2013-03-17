@@ -5,9 +5,7 @@ class Message {
 public:
 // types
  int INFORM, QUERY;
-  // time-stamp
-long timeStamp;
-char* msg;
+  
 //constructor 
 Message();
 Message (char* _msg, long time );
