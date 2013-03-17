@@ -3,16 +3,13 @@
 #include "Agent.h"
 #include <cstring> 
 
-using namespace std;
 
 class MotionAgent : public Agent { 
 public:
-	MotionAgent (string name);
-string sId;
+	MotionAgent (std::string name);
+std::string sId;
 int agentId; 
-//void setName(char* _name){ _name = sId;} 
-//char* getName() {return sId;}
-//int getAgentID() { return agentId; } 
+
 
 };
 #endif
