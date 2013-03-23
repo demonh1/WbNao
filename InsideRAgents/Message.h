@@ -9,7 +9,7 @@ public:
 //constructor 
 Message();
 Message (char* _msg, long time );
-virtual ~ Message ();
+ ~ Message ();
 // methods
 int getTypeMessage (int type);
 void setMessage (char* _msg);
