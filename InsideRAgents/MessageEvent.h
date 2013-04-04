@@ -17,8 +17,8 @@ public:
          
 
 // methods
-char* sendMessage(unsigned idSender, char* msg, unsigned idReceiver);
-char* sendMessage(std::string nameSender, char* msg, std::string nameReceiver);
+char* sendMessage(unsigned idSender, Message msg, unsigned idReceiver);
+char* sendMessage(std::string nameSender, Message msg, std::string nameReceiver);
 //int isStatusMessage (int indexMessageToQueue); // RECD/SENT
 
 // convert to string

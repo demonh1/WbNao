@@ -22,9 +22,15 @@ T MessageEvent::fromString (const std::string &str) {
 //MessageEvent::MessageEvent ( ) { }
 //MessageEvent::~MessageEvent () { }
 
-char* MessageEvent::sendMessage(unsigned idSender, char* msg, unsigned idReceiver) { return msg; }
+char* MessageEvent::sendMessage(unsigned idSender, Message msg, unsigned idReceiver) { 
+addMessageToQueue(msg); 
+return msg.getMessage();
+ }
 
-char* MessageEvent::sendMessage(std::string nameSender, char* msg, std::string nameReceiver) { return msg; }
+char* MessageEvent::sendMessage(std::string nameSender, Message msg, std::string nameReceiver) {
+addMessageToQueue(msg); 
+return msg.getMessage();
+ }
 
 void MessageEvent::addMessageToQueue(Message msg) {
 

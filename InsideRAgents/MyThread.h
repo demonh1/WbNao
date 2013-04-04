@@ -16,10 +16,10 @@ public:
 //MotionAgent motion = MotionAgent("motion");
 //MotionAgent motion1 = MotionAgent("motion1");
 
-return (me.sendMessage(a.getAgentId(), m.getMessage(), a1.getAgentId()));
+return (me.sendMessage(a.getAgentId(), m, a1.getAgentId()));
 }
-  //bool done() const { return __done; }
+  //bool done() const { return _done; }
 //private:
-  //bool __done;
+  //bool _done;
 };
 

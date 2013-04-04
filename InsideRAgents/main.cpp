@@ -9,9 +9,9 @@
 
 //test
 int main() {
-	Message m = Message("hi",1);
-	Message m0 =  Message("inform message",2);
-        Message ms =  Message("wt",2);
+	Message m = Message("hi",100,Message::INFORM);
+	Message m0 =  Message("inform message",200,Message::INFORM);
+       // Message ms =  Message("wt",233,Message::INFORM);
 
 	std::shared_ptr<MessageEvent>m1(new MessageEvent()); 
         MessageEvent m12 =  MessageEvent(); 
@@ -43,8 +43,8 @@ m1 -> delLastItemMessage();
 //std:: cout << "Sender id " << motion.getAgentId() << std::endl;
 //std::cout << "Receiver id " << motion1.getAgentId() << std:: endl;
 
-std:: cout << "Sender" << "\n" << m1 -> sendMessage(motion.getName(), m.getMessage(), motion1.getName()) << std:: endl;
-std:: cout << "Sender id: " << motion.getAgentId() << "\n" << m1 -> sendMessage(motion.getAgentId(), m.getMessage(), motion1.getAgentId()) << std:: endl;
+std:: cout << "Sender" << "\n" << m1 -> sendMessage(motion.getName(), m, motion1.getName()) << std:: endl;
+std:: cout << "Sender id: " << motion.getAgentId() << "\n" << m1 -> sendMessage(motion.getAgentId(), m, motion1.getAgentId()) << std:: endl;
 std:: cout  << "size:";  
  m1->sizeQueue();
 

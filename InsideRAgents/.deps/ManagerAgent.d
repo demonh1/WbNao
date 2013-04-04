@@ -18,6 +18,7 @@ obj/ManagerAgent.o: ManagerAgent.cpp ManagerAgent.h Agent.h \
  /usr/include/c++/4.6/ext/numeric_traits.h \
  /usr/include/c++/4.6/bits/stl_pair.h /usr/include/c++/4.6/bits/move.h \
  /usr/include/c++/4.6/bits/concept_check.h \
+ /usr/include/c++/4.6/type_traits \
  /usr/include/c++/4.6/bits/stl_iterator_base_types.h \
  /usr/include/c++/4.6/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/4.6/bits/stl_iterator.h \
@@ -26,10 +27,14 @@ obj/ManagerAgent.o: ManagerAgent.cpp ManagerAgent.h Agent.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stddef.h \
- /usr/include/xlocale.h /usr/include/c++/4.6/bits/allocator.h \
+ /usr/include/xlocale.h /usr/include/c++/4.6/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdint.h /usr/include/stdint.h \
+ /usr/include/c++/4.6/bits/allocator.h \
  /usr/include/c++/4.6/x86_64-linux-gnu/./bits/c++allocator.h \
  /usr/include/c++/4.6/ext/new_allocator.h /usr/include/c++/4.6/new \
- /usr/include/c++/4.6/exception /usr/include/c++/4.6/bits/localefwd.h \
+ /usr/include/c++/4.6/exception /usr/include/c++/4.6/bits/exception_ptr.h \
+ /usr/include/c++/4.6/bits/nested_exception.h \
+ /usr/include/c++/4.6/bits/localefwd.h \
  /usr/include/c++/4.6/x86_64-linux-gnu/./bits/c++locale.h \
  /usr/include/c++/4.6/clocale /usr/include/locale.h \
  /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/4.6/iosfwd \
@@ -58,6 +63,24 @@ obj/ManagerAgent.o: ManagerAgent.cpp ManagerAgent.h Agent.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
  /usr/include/c++/4.6/x86_64-linux-gnu/./bits/atomic_word.h \
  /usr/include/c++/4.6/initializer_list \
+ /usr/include/c++/4.6/ext/string_conversions.h \
+ /usr/include/c++/4.6/cstdlib /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h \
+ /usr/include/c++/4.6/cstdio /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/c++/4.6/cerrno /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/c++/4.6/bits/functional_hash.h \
+ /usr/include/c++/4.6/bits/hash_bytes.h \
  /usr/include/c++/4.6/bits/basic_string.tcc /usr/include/c++/4.6/cstring \
  /usr/include/string.h /usr/include/c++/4.6/vector \
  /usr/include/c++/4.6/bits/stl_construct.h \

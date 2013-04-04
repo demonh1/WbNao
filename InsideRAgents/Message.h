@@ -3,12 +3,17 @@
 
 class Message { 
 public:
-// types
- int INFORM, QUERY;
+
+// types 
+enum MessageType
+{ 
+	INFORM = 1,
+	QUERY	
+};
   
 //constructor 
 Message();
-Message (char* _msg, long time );
+Message (char* _msg, long time, int _type );
  ~ Message ();
 // methods
 int getTypeMessage (int type);
@@ -19,6 +24,7 @@ protected:
 // time-stamp
 long timeStamp;
 char* msg;
+int type;
 
 };
 #endif
